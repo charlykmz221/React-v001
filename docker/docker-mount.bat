@@ -1,0 +1,1 @@
+docker run -it -p 127.0.0.1:3000:3000 -v D:/KOA/DEVPERSO/React-v001:/app charlyjs sh

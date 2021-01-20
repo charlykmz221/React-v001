@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  # ------> reactjs ------>
+  charlyjs:
+    container_name: charlyjs
+    build: ./reactjs
+    image: charlyjs
+    ports:
+      - 3000:3000
+    volumes:
+      - "D:/KOA/DEVPERSO/React-v001:/app"

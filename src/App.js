@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import MenuComponent from './components/Menu'
+import Routes from './components/Routes'
 import HelloWorld from './components/Hello'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header >
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,8 +20,11 @@ function App() {
         >
           Learn React
         </a>
+          <MenuComponent />
       </header>
-      <HelloWorld number={"157 regex"}>Coucou</HelloWorld>
+        <Routes/>
+        {/*<HelloWorld number={"404 forever"}>Bob</HelloWorld>*/}
+
     </div>
   );
 }

@@ -8,5 +8,6 @@ services:
     image: charlyjs
     ports:
       - 3000:3000
+    network_mode: host
     volumes:
-      - "D:/KOA/DEVPERSO/React-v001:/app"
+      - ../:/app
